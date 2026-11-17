@@ -7,7 +7,7 @@ compatibility_date = "2024-11-01"
 # ajouter COOP/COEP/CORP + le bon MIME wasm sur CHAQUE réponse (sinon les assets sont
 # servis directement, sans en-têtes).
 [assets]
-directory = "./public"
+directory = "../"
 binding = "ASSETS"
 run_worker_first = true
 
